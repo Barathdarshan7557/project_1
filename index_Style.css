@@ -21,6 +21,7 @@ nav{
     display: flex;
     justify-content: space-evenly;
 }
+
 .menu a{
     text-decoration: none;
     padding: 5px;
