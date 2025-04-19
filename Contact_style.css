@@ -1,0 +1,83 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    background: #333;
+    color: #fff;
+    padding: 10px;
+}
+.name{
+    width: 50%;
+    text-indent: 20px;
+    display: flex;
+    align-items: center;
+}
+.menu{
+    width: 50%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.menu a{
+    text-decoration: none;
+    padding: 5px;
+    transition: all 500ms ease-in-out;
+    border-radius: 5px;
+    color: #fff;
+}
+.menu a:hover{
+    background-color:#fff;
+    color: #333;
+    scale: 0.8;
+}
+section {
+    text-align: center;
+    margin-bottom: 20px;
+    padding: 15px;
+    border: 1px solid #ccc;
+}
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background: #333;
+    color: #fff;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+.contact {
+    padding: 60px 0;
+    background: #fff;
+}
+
+.contact-form {
+    max-width: 600px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.contact-form input,
+.contact-form textarea {
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 1rem;
+    width: 100%;
+}
+
+.contact-form button {
+    background: #000;
+    color: #fff;
+    border: none;
+    padding: 15px;
+    font-size: 1rem;
+    border-radius: 6px;
+}
+
+.contact-form button:hover {
+    background: #333;
+}
