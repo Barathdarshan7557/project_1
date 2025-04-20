@@ -3,12 +3,28 @@
     margin: 0;
     box-sizing: border-box;
 }
+body{
+    background-image: url("./image/background\ img.webp");
+    color: #fff;
+}
 nav{
     display: flex;
     justify-content: space-between;
-    background: rgba(2, 2, 2, 0.5);
+    background-color: rgba(39, 38, 38, 0.5);
     color: #fff;
     padding: 10px;
+    top: 0;
+    position: sticky;  
+}
+.login img{
+    width: 40px;
+    height: 40px;
+    margin-right: 30px;
+    border-radius: 50%;
+    transition: all 500ms ease-in-out;
+}
+.login img:hover{
+    scale: 0.8;
 }
 .name{
     width: 50%;
@@ -21,7 +37,9 @@ nav{
     display: flex;
     justify-content: space-evenly;
 }
-
+section{
+    background-color: rgba(255, 255, 255, 0.1);
+}
 .menu a{
     text-decoration: none;
     padding: 5px;
@@ -30,12 +48,12 @@ nav{
     color: #fff;
 }
 .menu a:hover{
-    background-color:#fff;
-    color: #333;
+    color: #5a5959;
     scale: 0.8;
 }
 .home{
     text-align: center;
+    color: wheat;
 }
 .prg{
     text-indent: 100px;
@@ -65,36 +83,30 @@ footer {
     bottom: 0;
     width: 100%;
 }
-.gallery {
-    position: relative;
+#contact{
+    text-align: center;
 }
-
-.gallery-item {
-    position: relative;
-    display: inline-block;
+.line1{
+    width: 100px;
+    height: 3px;
+    background-color: rgb(255, 255, 255);
+    margin-bottom: 20px;
 }
-
-.gallery-item img {
-    width: 100%;
-    height: auto;
-    display: block;
-    opacity: 0.6;
+.line{
+    width: 60px;
+    height: 3px;
+    background-color: rgb(255, 255, 255);
+    margin-bottom: 20px;
 }
-
-.see-more-button {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    background-color: rgba(255, 255, 255, 0.8);
-    color: #333;
-    padding: 10px 20px;
-    text-decoration: none;
-    border-radius: 5px;
-    font-weight: bold;
-    transition: background-color 0.3s;
+h4{
+    margin-bottom: 10px;
 }
-
-.see-more-button:hover {
-    background-color: rgba(255, 255, 255, 1);
+h1{
+    margin-bottom: 10px;
+}
+a{
+    color: #fff;  
+}
+a:hover{
+  color:  #85c9db  ;
 }

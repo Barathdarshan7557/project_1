@@ -3,14 +3,22 @@
     margin: 0;
     box-sizing: border-box;
 }
+body{
+    background-image: url("./image/background\ img.webp");
+    color: #fff;
+}
 nav{
     display: flex;
     justify-content: space-between;
-    background: rgba(2, 2, 2, 0.5);
+    background-color: rgba(39, 38, 38, 0.5);
     color: #fff;
     padding: 10px;
+    top: 0;
+    position: sticky;  
 }
-
+h2{
+    margin-bottom: 10px;
+}
 .name{
     width: 50%;
     text-indent: 20px;
@@ -42,13 +50,15 @@ nav{
 
 .gallery-container img {
     width: 100%;
-    height: auto;
+    height: 100%;
     border-radius: 5px;
+    border: 1px solid white;
 }
 section {
     margin-bottom: 20px;
     padding: 15px;
     border: 1px solid #ccc;
+    background-color: rgba(255, 255, 255, 0.1);
 }
 footer {
     text-align: center;
@@ -91,4 +101,19 @@ footer {
 
 .see-more-button:hover {
     background-color: rgba(255, 255, 255, 1);
+}
+#contact{
+    text-align: center;
+}
+.line{
+    width: 60px;
+    height: 5px;
+    background-color: rgb(255, 255, 255);
+    margin-bottom: 20px;
+}
+a{
+    color: #fff;  
+}
+a:hover{
+  color:  #85c9db  ;
 }
