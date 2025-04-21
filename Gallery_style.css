@@ -5,6 +5,7 @@
 }
 body{
     background-image: url("./image/background\ img.webp");
+    background-attachment: fixed;
     color: #fff;
 }
 nav{
@@ -38,7 +39,6 @@ h2{
     color: #fff;
 }
 .menu a:hover{
-    background-color:#fff;
     color: #333;
     scale: 0.8;
 }

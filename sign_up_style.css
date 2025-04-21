@@ -5,6 +5,7 @@
 }
 body{
     background-image: url("./image/background\ img.webp");
+    background-attachment: fixed;
 }
 .main_container{
     width: 1400px;
